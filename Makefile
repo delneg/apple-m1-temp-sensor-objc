@@ -15,6 +15,6 @@ build:
 all: build
 
 run:
-	./temp_sensor | ./monitor.py
+	./temp_sensor
 
 .phony: build run
